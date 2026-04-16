@@ -4,7 +4,7 @@ compatibility_date = "2025-01-01"
 
 [[kv_namespaces]]
 binding = "LOGO_CACHE"
-id = "placeholder-fill-after-creating-namespace"
+id = "0bb94d70374f4eb594c954571637ff3e"
 
 # Uncomment when ready to enable R2
 # [[r2_buckets]]

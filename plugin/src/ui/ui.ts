@@ -1,5 +1,4 @@
-// TODO: Replace with your actual Worker URL after deployment
-const WORKER_BASE = 'https://trading-logo-worker.YOUR_SUBDOMAIN.workers.dev';
+const WORKER_BASE = 'https://trading-logo-worker.tradinglogos.workers.dev';
 
 const searchInput = document.getElementById('search-input') as HTMLInputElement;
 const stateInitial = document.getElementById('state-initial')!;
