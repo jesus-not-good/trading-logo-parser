@@ -122,6 +122,7 @@ GET /logo?ticker=AAPL&type=stock
   "companyName": "Xyz Corp"
 }
 ```
+Note: `companyName` may be `null` if no source recognized the ticker at all. When a source recognizes the ticker but has no logo image, it may still return the company name.
 
 ### Image Proxy
 ```
