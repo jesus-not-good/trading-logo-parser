@@ -1,0 +1,13 @@
+{
+  "name": "plugin",
+  "private": true,
+  "scripts": {
+    "dev": "node esbuild.config.mjs --watch",
+    "build": "node esbuild.config.mjs"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.0",
+    "typescript": "^5.7.0",
+    "@figma/plugin-typings": "^1.106.0"
+  }
+}

@@ -1,0 +1,12 @@
+name = "trading-logo-worker"
+main = "src/index.ts"
+compatibility_date = "2025-01-01"
+
+[[kv_namespaces]]
+binding = "LOGO_CACHE"
+id = "placeholder-fill-after-creating-namespace"
+
+# Uncomment when ready to enable R2
+# [[r2_buckets]]
+# binding = "LOGO_IMAGES"
+# bucket_name = "trading-logos"

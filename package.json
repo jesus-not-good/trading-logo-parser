@@ -1,0 +1,10 @@
+{
+  "name": "trading-logo-parser",
+  "private": true,
+  "scripts": {
+    "dev:worker": "pnpm --filter worker dev",
+    "dev:plugin": "pnpm --filter plugin dev",
+    "build": "pnpm -r build",
+    "test": "pnpm -r test"
+  }
+}
