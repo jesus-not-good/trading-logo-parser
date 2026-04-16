@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- STYLES -->
+</head>
+<body>
+  <div id="app">
+    <div class="search-container">
+      <input
+        id="search-input"
+        type="text"
+        placeholder="Enter ticker (AAPL, BTC, EURUSD...)"
+        autocomplete="off"
+      />
+    </div>
+
+    <div id="state-initial" class="state">
+      <p class="hint">Search for a trading instrument logo</p>
+    </div>
+
+    <div id="state-loading" class="state hidden">
+      <div class="spinner"></div>
+    </div>
+
+    <div id="state-found" class="state hidden">
+      <div class="result">
+        <div class="preview" id="preview-image"></div>
+        <div class="result-info">
+          <span class="company-name" id="company-name"></span>
+          <span class="ticker-label" id="ticker-label"></span>
+        </div>
+      </div>
+      <button id="btn-insert" class="btn-primary">Insert</button>
+    </div>
+
+    <div id="state-not-found" class="state hidden">
+      <div class="result">
+        <div class="preview fallback-preview" id="preview-fallback"></div>
+        <div class="result-info">
+          <span class="company-name">Logo not found</span>
+          <span class="ticker-label" id="ticker-label-fallback"></span>
+        </div>
+      </div>
+      <button id="btn-insert-fallback" class="btn-secondary">Insert fallback</button>
+    </div>
+
+    <div id="state-error" class="state hidden">
+      <p class="error-text">Network error</p>
+      <button id="btn-retry" class="btn-secondary">Retry</button>
+    </div>
+
+    <div id="state-success" class="state hidden">
+      <p class="success-text">Inserted!</p>
+    </div>
+  </div>
+  <!-- SCRIPT -->
+</body>
+</html>
