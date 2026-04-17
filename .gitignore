@@ -3,3 +3,5 @@ dist/
 .wrangler/
 .superpowers/
 *.log
+.DS_Store
+*.zip

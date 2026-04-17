@@ -1,8 +1,13 @@
 {
   "name": "Trading Logo Parser",
-  "id": "trading-logo-parser",
+  "id": "1626896191101640537",
   "api": "1.0.0",
   "main": "dist/code.js",
   "ui": "dist/ui.html",
-  "editorType": ["figma"]
+  "editorType": ["figma", "dev"],
+  "documentAccess": "dynamic-page",
+  "networkAccess": {
+    "allowedDomains": ["*"],
+    "reasoning": "Fetches trading instrument logos from Cloudflare Worker API"
+  }
 }
