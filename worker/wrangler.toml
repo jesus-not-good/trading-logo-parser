@@ -2,6 +2,9 @@ name = "trading-logo-worker"
 main = "src/index.ts"
 compatibility_date = "2025-01-01"
 
+[observability]
+enabled = true
+
 [[kv_namespaces]]
 binding = "LOGO_CACHE"
 id = "0bb94d70374f4eb594c954571637ff3e"
